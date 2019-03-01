@@ -1,3 +1,58 @@
 .App {
   text-align: center;
+  width: 600px;
+  margin: 2% auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+}
+
+.active{
+  color: dodgerblue;
+  text-decoration: underline;
+}
+
+form{
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  margin: 5% auto;
+}
+
+form input{
+  margin-bottom: 5%;
+  padding: 8px 5px;
+  border-radius: 10px;
+}
+
+form button{
+  padding: 8px 50px;
+  margin: 0px 50px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Smurf{
+  background: dodgerblue;
+  border-radius: 10px;
+  width: 200px;
+  margin: 1% auto;
+  color: white;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+
+.Smurfs h1{
+  color: red;
+  margin-top: 7%;
 }
