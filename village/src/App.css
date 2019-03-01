@@ -1,3 +1,33 @@
 .App {
   text-align: center;
+  width: 600px;
+  margin: 2% auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active{
+  color: dodgerblue;
+}
+
+form{
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  margin: 5% auto;
+}
+
+form input{
+  margin-bottom: 5%;
+  padding: 5px 0px;
+}
+
+form button{
+  padding: 8px 50px;
+  margin: 0px 50px;
+  border-radius: 10px;
+  font-weight: bold;
 }
